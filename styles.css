@@ -7,55 +7,51 @@
 }
 
 body {
-    background-color: #f4f4f9;
+    background-color: #f7f8fa;
     color: #333;
-    line-height: 1.6;
 }
 
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px 20px;
 }
 
 /* Header */
 header {
-    background-color: #2c3e50;
+    background-color: #333;
     color: white;
-    padding: 40px 0;
+    padding: 30px 0;
     text-align: center;
-    border-bottom: 2px solid #34495e;
+    border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 header h1 {
     font-size: 3rem;
-    margin-bottom: 10px;
-    font-weight: 500;
 }
 
 header p {
     font-size: 1.2rem;
-    margin-bottom: 15px;
-    font-weight: 300;
+    margin-bottom: 10px;
 }
 
 header .contact-info {
     font-size: 1rem;
-    font-weight: 400;
 }
 
 header .contact-info a {
-    color: #ecf0f1;
+    color: #9e9e9e;
     text-decoration: none;
-    margin: 0 15px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
 }
 
 header .contact-info a:hover {
-    color: #3498db;
+    color: #fff;
 }
 
 /* Section Styles */
 .section {
-    margin: 50px 0;
-    padding: 40px
+    margin:
