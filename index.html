@@ -1,134 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alok Singh | Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Alok Singh - Resume</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 </head>
-
 <body>
-
-    <!-- Header Section -->
     <header>
         <div class="container">
-            <img class="avatar" src="path-to-your-image.jpg" alt="Alok Singh">
-            <div class="text-content">
-                <h1>Alok Singh</h1>
-                <p>Email: <a href="mailto:aloksingh090602@gmail.com">aloksingh090602@gmail.com</a></p>
-                <p>Phone: <a href="tel:+919818682795">+91 9818682795</a></p>
-                <div class="contact-info">
-                    <a href="https://www.linkedin.com/in/alok-singh-0048961a4/" target="_blank">LinkedIn</a>
+            <div class="header-content">
+                <img src="https://www.example.com/your-photo.jpg" alt="Alok Singh" class="avatar">
+                <div class="text-content">
+                    <h1>Alok Singh <span role="img" aria-label="programmer">👨‍💻</span></h1>
+                    <p>Software Developer | Web Enthusiast | Problem Solver <span role="img" aria-label="sparkles">✨</span></p>
+                    <div class="contact-info">
+                        <a href="mailto:aloksingh090602@gmail.com"><i class="fa fa-envelope"></i> aloksingh090602@gmail.com</a>
+                        <a href="tel:+919818682795"><i class="fa fa-phone"></i> +91 9818682795</a>
+                        <a href="https://www.linkedin.com/in/aloksingh1008" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Academic Profile Section -->
-    <section class="section">
-        <h2>🎓 Academic Profile</h2>
-        <table>
-            <tr>
-                <th>Degree/ Certificate</th>
-                <th>Institution</th>
-                <th>Percentage/ CGPA</th>
-                <th>Year</th>
-            </tr>
-            <tr>
-                <td>B.Tech</td>
-                <td>Electrical Engineering, IIT (BHU), Varanasi</td>
-                <td>8.69</td>
-                <td>2024</td>
-            </tr>
-            <tr>
-                <td>CBSE (XII)</td>
-                <td>Modern School, Noida</td>
-                <td>92.00%</td>
-                <td>2020</td>
-            </tr>
-            <tr>
-                <td>CBSE (X)</td>
-                <td>Modern School, Noida</td>
-                <td>86.20%</td>
-                <td>2018</td>
-            </tr>
-        </table>
-    </section>
-
-    <!-- Skills Section -->
-    <section class="section">
-        <h2>🛠 Skills</h2>
-        <p><strong>Programming Languages & Frameworks:</strong> C/C++, Javascript, HTML, CSS, Java (Basic), Python (Basic)</p>
-        <p><strong>Tools & Technologies:</strong> Vue.Js, Nuxt.Js, Firebase, Git & GitHub, React.Js</p>
-        <p><strong>Areas of Interest:</strong> Data Structures & Algorithms, Problem Solving, Web Development, OOPs</p>
-    </section>
-
-    <!-- Professional Experience Section -->
-    <section class="section">
-        <h2>💼 Professional Experience</h2>
-
-        <div class="experience-card">
-            <h3>Software Developer | StrategicERP</h3>
-            <p class="date">May 2023 - July 2023</p>
-            <ul>
-                <li>Improved software efficiency by troubleshooting and resolving coding issues.</li>
-                <li>Converted and improvised PL/SQL function to PL/Python function to increase efficiency.</li>
-                <li>Updated old code bases to modern development standards, improving functionality.</li>
-                <li>Contributed to a positive team environment through effective communication and collaboration.</li>
-            </ul>
-        </div>
-
-        <div class="experience-card">
-            <h3>Software Development Intern | Konsoftech Solutions Pvt. Ltd.</h3>
-            <p class="date">May 2023 - July 2023</p>
-            <ul>
-                <li>Worked as a Web App developer to create a Bookmarker App using PWA technology.</li>
-                <li>Implemented Firebase Authentication and Authorization.</li>
-                <li>Successfully implemented a Single Page Web Application (SPA) using Vue.js Framework.</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="section">
-        <h2>📂 Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <h3><a href="https://github.com/aloksingh1008/Meeting-Scheduler" target="_blank">Meeting Scheduler</a></h3>
-                <ul>
-                    <li>Developed a web application for efficient scheduling of meetings.</li>
-                    <li>Streamlined meeting setup with an intuitive interface.</li>
-                    <li>Integrated date and time pickers for easy time selection.</li>
-                </ul>
+    <main>
+        <!-- Academic Profile Section -->
+        <section id="academic-profile" class="section">
+            <div class="container">
+                <h2>🎓 Academic Profile</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Degree/Certificate</th>
+                            <th>Institution</th>
+                            <th>Percentage/CGPA</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>B.Tech</td>
+                            <td>Electrical Engineering, IIT (BHU), Varanasi</td>
+                            <td>8.69</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>CBSE (XII)</td>
+                            <td>Modern School, Noida</td>
+                            <td>92.00%</td>
+                            <td>2020</td>
+                        </tr>
+                        <tr>
+                            <td>CBSE (X)</td>
+                            <td>Modern School, Noida</td>
+                            <td>86.20%</td>
+                            <td>2018</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="project-card">
-                <h3><a href="https://github.com/aloksingh1008/Huffman-Coding" target="_blank">Huffman Coding (Greedy Algorithm)</a></h3>
-                <ul>
-                    <li>Implemented Huffman coding algorithm to efficiently compress data.</li>
-                    <li>Used greedy algorithms to minimize the total weighted path length.</li>
-                    <li>Optimized algorithm for handling large datasets with better memory management.</li>
-                </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>🛠️ Skills</h2>
+                <div class="skills">
+                    <div>
+                        <h3>Programming Languages & Frameworks</h3>
+                        <p>C/C++, JavaScript, HTML, CSS, Java (Basic), Python (Basic)</p>
+                    </div>
+                    <div>
+                        <h3>Tools & Technologies</h3>
+                        <p>Vue.js, Nuxt.js, Firebase, Git & GitHub, React.js</p>
+                    </div>
+                    <div>
+                        <h3>Areas of Interest</h3>
+                        <p>Data Structures & Algorithms, Problem Solving, Web Development, OOPs</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Position of Responsibility Section -->
-    <section class="section">
-        <h2>📅 Position of Responsibility</h2>
-        <ul>
-            <li>Core Team Member | Evolve NGO</li>
-            <li>Organized seminars on youth welfare for over 500+ youths from various IITs and IIITs.</li>
-            <li>Managed the Youth Festival’23 for over 8000+ attendees with a team of 200+ volunteers.</li>
-        </ul>
-    </section>
+        <!-- Professional Experience Section -->
+        <section id="professional-experience" class="section">
+            <div class="container">
+                <h2>💼 Professional Experience</h2>
 
-    <!-- Footer Section -->
+                <!-- Experience 1 -->
+                <div class="experience-card">
+                    <h3>Software Developer | StrategicERP</h3>
+                    <p class="date">May 2023 - July 2023</p>
+                    <ul>
+                        <li>Improved software efficiency by troubleshooting and resolving coding issues.</li>
+                        <li>Converted and improvised PL/SQL function to PL/Python function to increase efficiency and accuracy.</li>
+                        <li>Saved time and resources by identifying and fixing bugs before product deployment.</li>
+                        <li>Updated old codebases to modern development standards, improving functionality.</li>
+                        <li>Contributed to a positive team environment through effective communication, problem-solving, and collaboration skills.</li>
+                    </ul>
+                    <p><strong>Technologies:</strong> Python, Java, JavaScript, PostgreSQL</p>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="experience-card">
+                    <h3>Software Development Intern | Konsoftech Solutions Pvt. Ltd.</h3>
+                    <p class="date">May 2023 - July 2023</p>
+                    <ul>
+                        <li>Developed a Bookmarker App using Progressive Web App (PWA) technology.</li>
+                        <li>Created Firebase database Authentication and Authorization.</li>
+                        <li>Implemented a Single Page Web Application (SPA) using Vue.js Framework.</li>
+                    </ul>
+                    <p><strong>Technologies:</strong> Vue, Vuetify, Firebase, Nuxt.js, Git & GitHub</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>📂 Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <h3><a href="https://github.com/aloksingh1008/Meeting-Scheduler" target="_blank">Meeting Scheduler</a></h3>
+                        <p><strong>January 2024</strong></p>
+                        <ul>
+                            <li>Developed a web application for efficient scheduling of meetings, enhancing team collaboration and time management.</li>
+                            <li>Streamlined meeting setup with an intuitive interface, reducing setup time.</li>
+                            <li>Enhanced scheduling with integrated date and time pickers, simplifying time selection.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <h3><a href="https://github.com/aloksingh1008/Huffman-Coding-Greedy-Algorithm" target="_blank">Huffman Coding Greedy Algorithm</a></h3>
+                        <p><strong>July 2023</strong></p>
+                        <ul>
+                            <li>Implemented Huffman coding to compress data using the greedy algorithm, reducing storage and transmission size.</li>
+                            <li>Worked with various data structures like priority queues for optimal encoding efficiency.</li>
+                            <li>Enhanced algorithm performance for real-time applications.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <h3><a href="https://github.com/aloksingh1008/Portfolio" target="_blank">Personal Portfolio Website</a></h3>
+                        <p><strong>June 2023</strong></p>
+                        <ul>
+                            <li>Designed and developed my personal portfolio website using HTML, CSS, and JavaScript.</li>
+                            <li>Showcased my skills, projects, and achievements in a visually appealing and responsive layout.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Add more projects here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Position of Responsibility Section -->
+        <section id="position-of-responsibility" class="section">
+            <div class="container">
+                <h2>📍 Position of Responsibility</h2>
+                <div class="responsibility">
+                    <h3>Core Team Member | Evolve NGO</h3>
+                    <p class="date">Jan 2023 - March 2023</p>
+                    <ul>
+                        <li>Organized seminars on youth welfare and anti-addiction for over 500+ youths from various IITs, IIITs, etc.</li>
+                        <li>Managed the Youth Festival’23 for over 8000+ attendees, coordinating with a team of 200+ volunteers.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2024 Alok Singh. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 Alok Singh. All rights reserved. <span role="img" aria-label="thumbs up">👍</span></p>
+        </div>
     </footer>
-
 </body>
-
 </html>
