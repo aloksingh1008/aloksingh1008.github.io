@@ -9,9 +9,9 @@
 body {
     background-color: #f5f5f5;
     color: #333;
-    line-height: 1.8; /* Added line height for better text readability */
+    line-height: 1.8;
     font-size: 1rem;
-    padding: 0 10px; /* Added general padding for body */
+    padding: 0 10px;
 }
 
 /* Header */
@@ -63,30 +63,30 @@ header .contact-info a:hover {
 
 /* Section Styles */
 .section {
-    padding: 50px 20px; /* Added horizontal padding to sections */
+    padding: 50px 20px;
     background-color: white;
     border-radius: 8px;
-    margin-bottom: 40px; /* Increased bottom margin between sections */
+    margin-bottom: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 h2 {
     font-size: 2rem;
-    margin-bottom: 25px; /* Increased spacing after section headings */
+    margin-bottom: 25px;
     color: #333;
     text-align: center;
     font-weight: 600;
 }
 
 p {
-    margin-bottom: 20px; /* Spacing between paragraphs */
+    margin-bottom: 20px;
 }
 
 /* Table */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 30px; /* Space below the table */
+    margin-bottom: 30px;
 }
 
 th, td {
@@ -104,13 +104,13 @@ th {
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px; /* Increased gap between project cards */
+    gap: 30px;
     margin-top: 30px;
 }
 
 .project-card {
     background-color: #fff;
-    padding: 20px;
+    padding: 30px; /* Increased padding inside the project card */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -124,50 +124,55 @@ th {
     color: #00b4d8;
     text-decoration: none;
     font-size: 1.2rem;
-    margin-bottom: 15px; /* Increased space between title and text */
+    margin-bottom: 15px;
 }
 
 .project-card ul {
-    list-style-type: none;
-    padding: 0;
+    list-style-type: disc;
+    padding-left: 30px; /* Added padding-left to align the bullet points */
     font-size: 1rem;
 }
 
 .project-card ul li {
-    margin-bottom: 12px; /* Added more spacing between list items */
+    margin-bottom: 12px; /* Increased spacing between list items */
 }
 
 /* Experience Cards */
 .experience-card {
     background-color: #fff;
-    padding: 20px;
+    padding: 30px; /* Increased padding inside the experience card */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* Space between experiences */
+    margin-bottom: 20px;
 }
 
 .experience-card h3 {
-    margin-bottom: 10px; /* Space below job title */
+    margin-bottom: 10px;
 }
 
 .experience-card .date {
     font-size: 0.95rem;
     color: #888;
-    margin-bottom: 15px; /* Spacing between date and job description */
+    margin-bottom: 15px;
 }
 
 .experience-card ul {
     margin-bottom: 20px;
+    padding-left: 30px; /* Added padding-left to align the bullet points */
+}
+
+.experience-card ul li {
+    margin-bottom: 12px;
 }
 
 /* Footer */
 footer {
     background-color: #333;
     color: white;
-    padding: 30px 20px; /* Padding for footer */
+    padding: 30px 20px;
     text-align: center;
     border-radius: 8px;
-    margin-top: 40px; /* Increased space between footer and content */
+    margin-top: 40px;
 }
 
 footer p {
