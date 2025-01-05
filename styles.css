@@ -1,0 +1,93 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and layout settings */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section styling */
+.section {
+    padding: 40px 0;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Project List Styling */
+.project-list {
+    margin-top: 20px;
+}
+
+.repo-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.repo-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.repo-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.repo-item p {
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
