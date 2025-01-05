@@ -3,83 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alok Singh's GitHub Page</title>
+    <title>Alok Singh - Resume</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for clean typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Welcome to Alok Singh's GitHub Page</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <h1>Alok Singh</h1>
+            <p>Software Developer | Web Enthusiast | Problem Solver</p>
+            <div class="contact-info">
+                <a href="mailto:aloksingh090602@gmail.com">aloksingh090602@gmail.com</a> |
+                <a href="tel:+919818682795">+91 9818682795</a> |
+                <a href="https://www.linkedin.com/in/aloksingh1008" target="_blank">LinkedIn</a>
+            </div>
         </div>
     </header>
 
-    <section id="home" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hello! I'm Alok Singh, a software developer with a passion for coding. Welcome to my GitHub Page!</p>
-        </div>
-    </section>
-
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>My Projects</h2>
-            <p>Here are some of my projects on GitHub:</p>
-            <div id="project-list" class="project-list">
-                <!-- Projects will be dynamically loaded here -->
+    <main>
+        <!-- Academic Profile Section -->
+        <section id="academic-profile" class="section">
+            <div class="container">
+                <h2>Academic Profile</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Degree/Certificate</th>
+                            <th>Institution</th>
+                            <th>Percentage/CGPA</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>B.Tech</td>
+                            <td>Electrical Engineering, IIT (BHU), Varanasi</td>
+                            <td>8.69</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>CBSE (XII)</td>
+                            <td>Modern School, Noida</td>
+                            <td>92.00%</td>
+                            <td>2020</td>
+                        </tr>
+                        <tr>
+                            <td>CBSE (X)</td>
+                            <td>Modern School, Noida</td>
+                            <td>86.20%</td>
+                            <td>2018</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>If you'd like to get in touch, you can reach me at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
-        </div>
-    </section>
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills">
+                    <div>
+                        <h3>Programming Languages & Frameworks</h3>
+                        <p>C/C++, JavaScript, HTML, CSS, Java (Basic), Python (Basic)</p>
+                    </div>
+                    <div>
+                        <h3>Tools & Technologies</h3>
+                        <p>Vue.js, Nuxt.js, Firebase, Git & GitHub, React.js</p>
+                    </div>
+                    <div>
+                        <h3>Areas of Interest</h3>
+                        <p>Data Structures & Algorithms, Problem Solving, Web Development, OOPs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section id="professional-experience" class="section">
+            <div class="container">
+                <h2>Professional Experience</h2>
+
+                <!-- Experience 1 -->
+                <div class="experience">
+                    <h3>Software Developer | StrategicERP</h3>
+                    <p class="date">May 2023 - July 2023</p>
+                    <ul>
+                        <li>Improved software efficiency by troubleshooting and resolving coding issues.</li>
+                        <li>Converted and improvised PL/SQL function to PL/Python function to increase efficiency and accuracy.</li>
+                        <li>Saved time and resources by identifying and fixing bugs before product deployment.</li>
+                        <li>Updated old codebases to modern development standards, improving functionality.</li>
+                        <li>Contributed to a positive team environment through effective communication, problem-solving, and collaboration skills.</li>
+                    </ul>
+                    <p><strong>Technologies:</strong> Python, Java, JavaScript, PostgreSQL</p>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="experience">
+                    <h3>Software Development Intern | Konsoftech Solutions Pvt. Ltd.</h3>
+                    <p class="date">May 2023 - July 2023</p>
+                    <ul>
+                        <li>Developed a Bookmarker App using Progressive Web App (PWA) technology.</li>
+                        <li>Created Firebase database Authentication and Authorization.</li>
+                        <li>Implemented a Single Page Web Application (SPA) using Vue.js Framework.</li>
+                    </ul>
+                    <p><strong>Technologies:</strong> Vue, Vuetify, Firebase, Nuxt.js, Git & GitHub</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+
+                <!-- Project 1 -->
+                <div class="project">
+                    <h3><a href="#" target="_blank">Meeting Scheduler</a></h3>
+                    <p><strong>January 2024</strong></p>
+                    <ul>
+                        <li>Developed a web application for efficient scheduling of meetings, enhancing team collaboration and time management.</li>
+                        <li>Streamlined meeting setup with an intuitive interface, reducing setup time.</li>
+                        <li>Enhanced scheduling with integrated date and time pickers, simplifying time selection.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Position of Responsibility Section -->
+        <section id="position-of-responsibility" class="section">
+            <div class="container">
+                <h2>Position of Responsibility</h2>
+                <div class="responsibility">
+                    <h3>Core Team Member | Evolve NGO</h3>
+                    <p class="date">Jan 2023 - March 2023</p>
+                    <ul>
+                        <li>Organized seminars on youth welfare and anti-addiction for over 500+ youths from various IITs, IIITs, etc.</li>
+                        <li>Managed the Youth Festival’23 for over 8000+ attendees, coordinating with a team of 200+ volunteers.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
             <p>&copy; 2025 Alok Singh. All rights reserved.</p>
         </div>
     </footer>
-
-    <script>
-        async function fetchGitHubRepos() {
-            const username = 'aloksingh1008'; // GitHub username
-            const apiUrl = `https://api.github.com/users/${username}/repos`;
-            
-            try {
-                const response = await fetch(apiUrl);
-                const repos = await response.json();
-                
-                const projectList = document.getElementById('project-list');
-                if (repos.length === 0) {
-                    projectList.innerHTML = '<p>No repositories found.</p>';
-                } else {
-                    repos.forEach(repo => {
-                        const repoItem = document.createElement('div');
-                        repoItem.classList.add('repo-item');
-                        repoItem.innerHTML = `
-                            <h3><a href="${repo.html_url}" target="_blank">${repo.name}</a></h3>
-                            <p>${repo.description || 'No description provided'}</p>
-                        `;
-                        projectList.appendChild(repoItem);
-                    });
-                }
-            } catch (error) {
-                console.error('Error fetching repositories:', error);
-                const projectList = document.getElementById('project-list');
-                projectList.innerHTML = '<p>Failed to load repositories. Please try again later.</p>';
-            }
-        }
-        window.onload = fetchGitHubRepos;
-    </script>
 </body>
 </html>
