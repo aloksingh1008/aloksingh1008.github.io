@@ -1,93 +1,104 @@
-/* Reset default margin and padding */
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-/* Body and layout settings */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
 .container {
-    width: 80%;
+    width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Header styling */
+/* Header */
 header {
     background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-
-header h1 {
-    text-align: center;
-}
-
-header nav ul {
-    list-style: none;
-    text-align: center;
-    margin-top: 10px;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Section styling */
-.section {
-    padding: 40px 0;
-    background-color: #fff;
-    margin: 20px 0;
-}
-
-.section h2 {
-    margin-bottom: 20px;
-    font-size: 2em;
-}
-
-/* Project List Styling */
-.project-list {
-    margin-top: 20px;
-}
-
-.repo-item {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-.repo-item h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.repo-item a {
-    text-decoration: none;
-    color: #333;
-}
-
-.repo-item p {
-    color: #555;
-}
-
-/* Footer Styling */
-footer {
-    background-color: #333;
-    color: #fff;
+    color: white;
     padding: 20px 0;
     text-align: center;
 }
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+header .contact-info {
+    font-size: 1rem;
+}
+
+header .contact-info a {
+    color: #9e9e9e;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header .contact-info a:hover {
+    color: #fff;
+}
+
+/* Section Styles */
+.section {
+    margin: 50px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills div {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.skills h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Experience & Projects */
+.experience, .project, .responsibility {
+    margin-bottom: 30px;
+}
+
+.ex
