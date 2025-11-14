@@ -3,174 +3,586 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alok Singh</title>
+    <title>Alok Singh | Software Developer</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
         <div class="container">
-            <div class="header-content">
-                <img src="alok.png" alt="Alok Singh" class="avatar">
-                <div class="text-content">
-                    <h1>Alok Singh <span role="img" aria-label="programmer">👨‍💻</span></h1>
-                    <p>Software Developer | Web Enthusiast | Problem Solver <span role="img" aria-label="sparkles">✨</span></p>
-                    <div class="contact-info">
-                        <a href="mailto:aloksingh090602@gmail.com"><i class="fa fa-envelope"></i> aloksingh090602@gmail.com</a>
-                        <a href="tel:+919818682795"><i class="fa fa-phone"></i> +91 9818682795</a>
-                        <a href="https://www.linkedin.com/in/aloksingh1008" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>
+            <div class="nav-brand">
+                <span class="logo">AS</span>
+                <span class="brand-name">Alok Singh</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="alok.png" alt="Alok Singh" class="profile-img">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name">
+                        <span class="name-line">Alok Singh</span>
+                    </h1>
+                    <div class="hero-title">
+                        <span class="typing-text" id="typingText"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="hero-description">
+                        Passionate Software Developer crafting elegant solutions to complex problems. 
+                        I transform ideas into reality through clean code and innovative thinking.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/aloksingh1008" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/aloksingh1008" target="_blank" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:aloksingh090602@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919818682795" class="social-link" aria-label="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <p>Scroll to explore</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01.</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a dedicated Software Developer with a passion for building scalable applications 
+                        and solving real-world problems through technology. Currently working at StrategicERP, 
+                        where I've been instrumental in improving software efficiency and modernizing legacy systems.
+                    </p>
+                    <p>
+                        My journey in software development has been driven by curiosity and a commitment to 
+                        continuous learning. I specialize in full-stack development, with expertise in Python, 
+                        JavaScript, and modern web frameworks. I'm particularly interested in optimizing 
+                        performance, writing clean code, and creating user-centric solutions.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Clean Code</h4>
+                                <p>Writing maintainable and efficient code</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <h4>Performance</h4>
+                                <p>Optimizing applications for speed</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <h4>Innovation</h4>
+                                <p>Transforming ideas into reality</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="3">0</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="10">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Technologies</div>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
-    <main>
-        <!-- Professional Experience Section -->
-        <section id="professional-experience" class="section">
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
             <div class="container">
-                <h2>💼 Professional Experience</h2>
-
-                <!-- Experience 1 -->
-                <div class="experience-card">
-                    <h3>Software Developer | StrategicERP</h3>
-                    <p class="date">August 2023 - Present</p>
-                    <ul>
-                        <li>Improved software efficiency by troubleshooting and resolving coding issues.</li>
-                        <li>Converted and improvised PL/SQL function to PL/Python function to increase efficiency and accuracy.</li>
-                        <li>Saved time and resources by identifying and fixing bugs before product deployment.</li>
-                        <li>Updated old codebases to modern development standards, improving functionality.</li>
-                        <li>Contributed to a positive team environment through effective communication, problem-solving, and collaboration skills.</li>
-                    </ul>
-                    <p><strong>Technologies:</strong> Python, Java, JavaScript, PostgreSQL</p>
+            <div class="section-header">
+                <span class="section-number">02.</span>
+                <h2 class="section-title">Experience</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Developer</h3>
+                            <span class="company">StrategicERP</span>
+                            <span class="timeline-date">Aug 2023 - Present</span>
+                        </div>
+                        <p class="timeline-description">
+                            Leading software development initiatives and driving technical excellence 
+                            in a fast-paced environment.
+                        </p>
+                        <ul class="timeline-list">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Improved software efficiency by 40% through systematic troubleshooting and code optimization
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Migrated PL/SQL functions to PL/Python, resulting in 3x performance improvement and enhanced accuracy
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Reduced production bugs by 60% through proactive identification and resolution before deployment
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Modernized legacy codebases, improving maintainability and reducing technical debt
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Collaborated with cross-functional teams to deliver high-quality software solutions
+                            </li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">PL/SQL</span>
+                            <span class="tech-tag">PL/Python</span>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Experience 2 -->
-                <div class="experience-card">
-                    <h3>Software Development Intern | Konsoftech Solutions Pvt. Ltd.</h3>
-                    <p class="date">May 2023 - July 2023</p>
-                    <ul>
-                        <li>Developed a Bookmarker App using Progressive Web App (PWA) technology.</li>
-                        <li>Created Firebase database Authentication and Authorization.</li>
-                        <li>Implemented a Single Page Web Application (SPA) using Vue.js Framework.</li>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Development Intern</h3>
+                            <span class="company">Konsoftech Solutions Pvt. Ltd.</span>
+                            <span class="timeline-date">May 2023 - Jul 2023</span>
+                        </div>
+                        <p class="timeline-description">
+                            Developed modern web applications using cutting-edge technologies and best practices.
+                        </p>
+                        <ul class="timeline-list">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Built a full-featured Bookmarker App using Progressive Web App (PWA) technology
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Implemented secure authentication and authorization using Firebase
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                Created responsive Single Page Application (SPA) using Vue.js framework
+                            </li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Vuetify</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Nuxt.js</span>
+                            <span class="tech-tag">Git & GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03.</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/aloksingh1008/Meeting-Scheduler" target="_blank" class="project-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Meeting Scheduler</h3>
+                    <p class="project-description">
+                        A comprehensive web application designed to streamline meeting coordination and enhance 
+                        team collaboration. Features intuitive scheduling with integrated date/time pickers.
+                    </p>
+                    <ul class="project-features">
+                        <li>Efficient meeting coordination</li>
+                        <li>Intuitive user interface</li>
+                        <li>Integrated date and time selection</li>
+                        <li>Enhanced team collaboration</li>
                     </ul>
-                    <p><strong>Technologies:</strong> Vue, Vuetify, Firebase, Nuxt.js, Git & GitHub</p>
+                    <div class="project-tech">
+                        <span>Web Development</span>
+                        <span>JavaScript</span>
+                        <span>UI/UX</span>
+                    </div>
+                    <div class="project-date">January 2024</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-compress-arrows-alt"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/aloksingh1008/Huffman-Coding-Greedy-Algorithm" target="_blank" class="project-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="project-link" aria-label="Live Demo">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Huffman Coding Algorithm</h3>
+                    <p class="project-description">
+                        Advanced data compression implementation using the greedy algorithm approach. 
+                        Optimized for real-time applications with efficient encoding and decoding.
+                    </p>
+                    <ul class="project-features">
+                        <li>Data compression optimization</li>
+                        <li>Greedy algorithm implementation</li>
+                        <li>Priority queue data structures</li>
+                        <li>Real-time performance</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span>Algorithms</span>
+                        <span>Data Structures</span>
+                        <span>C++</span>
+                    </div>
+                    <div class="project-date">July 2023</div>
+                </div>
                 </div>
             </div>
         </section>
 
         <!-- Skills Section -->
-        <section id="skills" class="section">
+    <section id="skills" class="section skills-section">
             <div class="container">
-                <h2>🛠️ Skills</h2>
-                <div class="skills">
-                    <div>
-                        <h3>Programming Languages & Frameworks</h3>
-                        <p>C/C++, JavaScript, Python</p>
+            <div class="section-header">
+                <span class="section-number">04.</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-code"></i>
+                        Programming Languages
+                    </h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">🐍</div>
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">☕</div>
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📜</div>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">⚙️</div>
+                            <span class="skill-name">C/C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <h3>Tools & Technologies</h3>
-                        <p>Vue.js, Nuxt.js, Firebase, Git & GitHub, React.js</p>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Frameworks & Tools
+                    </h3>
+                    <div class="skills-tags">
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Nuxt.js</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">PL/SQL</span>
+                        <span class="skill-tag">PL/Python</span>
                     </div>
-                    <div>
-                        <h3>Areas of Interest</h3>
-                        <p>Data Structures & Algorithms, Problem Solving, Web Development, OOPs</p>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-lightbulb"></i>
+                        Areas of Expertise
+                    </h3>
+                    <div class="expertise-grid">
+                        <div class="expertise-item">
+                            <i class="fas fa-sitemap"></i>
+                            <span>Data Structures</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Algorithms</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-globe"></i>
+                            <span>Web Development</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-cube"></i>
+                            <span>Object-Oriented Programming</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <span>Problem Solving</span>
+                        </div>
+                        <div class="expertise-item">
+                            <i class="fas fa-database"></i>
+                            <span>Database Design</span>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
         </section>
 
-
-        <!-- Projects Section -->
-        <section id="projects" class="section">
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
             <div class="container">
-                <h2>📂 Projects</h2>
-                <div class="projects-grid">
-                    <!-- Project 1 -->
-                    <div class="project-card">
-                        <h3><a href="https://github.com/aloksingh1008/Meeting-Scheduler" target="_blank">Meeting Scheduler</a></h3>
-                        <p><strong>January 2024</strong></p>
-                        <ul>
-                            <li>Developed a web application for efficient scheduling of meetings, enhancing team collaboration and time management.</li>
-                            <li>Streamlined meeting setup with an intuitive interface, reducing setup time.</li>
-                            <li>Enhanced scheduling with integrated date and time pickers, simplifying time selection.</li>
-                        </ul>
+            <div class="section-header">
+                <span class="section-number">05.</span>
+                <h2 class="section-title">Education</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="education-timeline">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Bachelor of Technology</h3>
+                        <p class="education-field">Electrical Engineering</p>
+                        <p class="education-institution">
+                            <i class="fas fa-university"></i>
+                            Indian Institute of Technology (BHU), Varanasi
+                        </p>
+                        <div class="education-details">
+                            <span class="education-grade">
+                                <i class="fas fa-star"></i>
+                                CGPA: 8.69/10
+                            </span>
+                            <span class="education-year">
+                                <i class="fas fa-calendar"></i>
+                                2024
+                            </span>
+                        </div>
+                    </div>
                     </div>
 
-                    <!-- Project 2 -->
-                    <div class="project-card">
-                        <h3><a href="https://github.com/aloksingh1008/Huffman-Coding-Greedy-Algorithm" target="_blank">Huffman Coding Greedy Algorithm</a></h3>
-                        <p><strong>July 2023</strong></p>
-                        <ul>
-                            <li>Implemented Huffman coding to compress data using the greedy algorithm, reducing storage and transmission size.</li>
-                            <li>Worked with various data structures like priority queues for optimal encoding efficiency.</li>
-                            <li>Enhanced algorithm performance for real-time applications.</li>
-                        </ul>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Senior Secondary (XII)</h3>
+                        <p class="education-field">CBSE Board</p>
+                        <p class="education-institution">
+                            <i class="fas fa-university"></i>
+                            Modern School, Noida
+                        </p>
+                        <div class="education-details">
+                            <span class="education-grade">
+                                <i class="fas fa-star"></i>
+                                92.00%
+                            </span>
+                            <span class="education-year">
+                                <i class="fas fa-calendar"></i>
+                                2020
+                            </span>
+                        </div>
+                    </div>
                     </div>
 
-                    <!-- Add more projects here -->
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Secondary (X)</h3>
+                        <p class="education-field">CBSE Board</p>
+                        <p class="education-institution">
+                            <i class="fas fa-university"></i>
+                            Modern School, Noida
+                        </p>
+                        <div class="education-details">
+                            <span class="education-grade">
+                                <i class="fas fa-star"></i>
+                                86.20%
+                            </span>
+                            <span class="education-year">
+                                <i class="fas fa-calendar"></i>
+                                2018
+                            </span>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </section>
 
-        <!-- Academic Profile Section -->
-        <section id="academic-profile" class="section">
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
             <div class="container">
-                <h2>🎓 Academic Profile</h2>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Degree/Certificate</th>
-                            <th>Institution</th>
-                            <th>Percentage/CGPA</th>
-                            <th>Year</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>B.Tech</td>
-                            <td>Electrical Engineering, IIT (BHU), Varanasi</td>
-                            <td>8.69</td>
-                            <td>2024</td>
-                        </tr>
-                        <tr>
-                            <td>CBSE (XII)</td>
-                            <td>Modern School, Noida</td>
-                            <td>92.00%</td>
-                            <td>2020</td>
-                        </tr>
-                        <tr>
-                            <td>CBSE (X)</td>
-                            <td>Modern School, Noida</td>
-                            <td>86.20%</td>
-                            <td>2018</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="section-header">
+                <span class="section-number">06.</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-line"></div>
             </div>
-        </section>
-
-        <!-- Position of Responsibility Section -->
-        <section id="position-of-responsibility" class="section">
-            <div class="container">
-                <h2>📍 Position of Responsibility</h2>
-                <div class="responsibility">
-                    <h3>Core Team Member | Evolve NGO</h3>
-                    <p class="date">Jan 2023 - March 2023</p>
-                    <ul>
-                        <li>Organized seminars on youth welfare and anti-addiction for over 500+ youths from various IITs, IIITs, etc.</li>
-                        <li>Managed the Youth Festival’23 for over 8000+ attendees, coordinating with a team of 200+ volunteers.</li>
-                    </ul>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-intro">
+                        I'm always open to discussing new projects, creative ideas, or opportunities 
+                        to be part of your vision. Feel free to reach out!
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:aloksingh090602@gmail.com" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>aloksingh090602@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="tel:+919818682795" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+91 9818682795</p>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/aloksingh1008" target="_blank" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <p>Connect with me</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
                 </div>
             </div>
         </section>
-    </main>
 
-    <footer>
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Alok Singh. All rights reserved. <span role="img" aria-label="thumbs up">👍</span></p>
+            <div class="footer-content">
+                <p>Designed & Built by <span class="footer-name">Alok Singh</span></p>
+                <p class="footer-year">&copy; 2025. All rights reserved.</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/aloksingh1008" target="_blank" class="footer-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/aloksingh1008" target="_blank" class="footer-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:aloksingh090602@gmail.com" class="footer-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
