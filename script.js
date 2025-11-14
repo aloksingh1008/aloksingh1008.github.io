@@ -4,10 +4,10 @@
 
 // Typing Animation
 const typingTexts = [
-    'Software Developer',
-    'Problem Solver',
-    'Full-Stack Engineer',
-    'Code Enthusiast'
+    'Backend Developer',
+    'AI Engineer',
+    'Full-Stack Developer',
+    'Software Engineer'
 ];
 
 let currentTextIndex = 0;
