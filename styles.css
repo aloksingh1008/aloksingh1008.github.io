@@ -769,14 +769,14 @@ body {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: var(--spacing-xl);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
 }
 
 .project-card {
     background: white;
-    border-radius: 16px;
-    padding: var(--spacing-lg);
+    border-radius: 12px;
+    padding: var(--spacing-md);
     box-shadow: var(--shadow-md);
     transition: all var(--transition-base);
     border: 1px solid var(--border-color);
@@ -794,19 +794,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
 }
 
 .project-icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    border-radius: 12px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .project-links {
@@ -834,30 +834,32 @@ body {
 }
 
 .project-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 700;
     color: var(--text-primary);
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: var(--spacing-xs);
 }
 
 .project-description {
     color: var(--text-secondary);
-    margin-bottom: var(--spacing-md);
-    line-height: 1.7;
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.6;
     flex: 1;
+    font-size: 0.95rem;
 }
 
 .project-features {
     list-style: none;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
 }
 
 .project-features li {
-    padding-left: var(--spacing-md);
+    padding-left: var(--spacing-sm);
     position: relative;
     color: var(--text-secondary);
-    margin-bottom: var(--spacing-xs);
-    line-height: 1.6;
+    margin-bottom: 4px;
+    line-height: 1.5;
+    font-size: 0.9rem;
 }
 
 .project-features li::before {
