@@ -1,14 +1,13 @@
 // ============================================
-// Modern Portfolio JavaScript
+// Java Developer Portfolio JavaScript
 // ============================================
 
 // Typing Animation
 const typingTexts = [
-    'Backend Developer',
-    'AI Engineer',
     'JAVA Developer',
-    'Full-Stack Developer',
-    'Software Engineer'
+    'Spring Boot Developer',
+    'Backend Engineer',
+    'Full-Stack Developer'
 ];
 
 let currentTextIndex = 0;
@@ -229,12 +228,7 @@ window.addEventListener('load', () => {
     document.body.classList.add('loaded');
 });
 
-// Form validation (if contact form is added later)
-function validateEmail(email) {
-    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(email);
-}
-
 // Console message
-console.log('%c👋 Hello! Welcome to my portfolio!', 'font-size: 20px; color: #6366f1; font-weight: bold;');
+console.log('%c☕ Java Developer Portfolio', 'font-size: 20px; color: #6366f1; font-weight: bold;');
 console.log('%cBuilt with ❤️ by Alok Singh', 'font-size: 14px; color: #64748b;');
+
